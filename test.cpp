@@ -11,12 +11,7 @@
 #include <map>
 using namespace std;
 
-int &f(int &n, int m) {
-    n += m;
-    return n;
-}
-
 int main() {
-    
+    cout << "second" << endl;
     return 0;
 }
